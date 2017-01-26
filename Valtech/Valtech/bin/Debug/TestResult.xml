@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\TestAutomation\PortFolioConstruction\PortFolioConstruction\bin\Debug\PortFolioConstruction.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-01-26" time="16:28:34">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5456" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="PAN-LON-PC612" user="denis.ewanzang" user-domain="PANTHEON" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\TestAutomation\PortFolioConstruction\PortFolioConstruction\bin\Debug\PortFolioConstruction.dll" executed="True" result="Failure" success="False" time="9.631" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="PortFolioConstruction" executed="True" result="Failure" success="False" time="9.614" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="TestCases" executed="True" result="Failure" success="False" time="9.613" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="Driver" executed="True" result="Failure" success="False" time="9.610" asserts="0">
+                <results>
+                  <test-case name="PortFolioConstruction.TestCases.Driver.GoogleSearch" executed="True" result="Error" success="False" time="9.595" asserts="0">
+                    <failure>
+                      <message><![CDATA[Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException : Assert.AreEqual failed. Expected:<selenium - Google Search>. Actual:<Google>. ]]></message>
+                      <stack-trace><![CDATA[at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual)
+at PortFolioConstruction.TestCases.Driver.GoogleSearch() in c:\TestAutomation\PortFolioConstruction\PortFolioConstruction\TestCases\UnitTest1.cs:line 51
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
